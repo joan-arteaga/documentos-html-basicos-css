@@ -1,0 +1,46 @@
+/*CSS de estilos de htnl: Tarea1*/
+
+
+
+/*usando la etiqueta principal del *body* le agregamos las clases*/
+/*al igual que con la etiqueta*p* */
+body {
+/*pone el contenido horizontalmente*/
+  display: flex;
+/*espacio en la parte de arriba para ordenar un poco...*/
+  margin-top: 60px;
+/*centra el contenido previa mente organizado*/
+  justify-content: center;
+ /*organiza el contenido*/
+  /*align-items: center;*/
+}
+p{
+/*tamaño del texto*/
+ font-size: 16.92px;
+}
+
+
+.barra{
+/*solo se le pone color al borde izquierdo */
+/*se le da uin poco de espacio entre el texto y el borede*/
+ border-left: 7px solid #bcc3c6;
+ padding-left: 12px;
+}
+.margen{
+/*se le pone al borde color, espacio interno, tamaño (alto, ancho)*/
+ border: 14px solid #bcc3c6;
+ width: 657.88px;
+ height: auto;
+ padding: 45px;
+}
+/*se le define un  color y un tipo de fuente a l@s fechas*/
+.subtitulo{
+color: #1f5d86;
+font-family: sans-serif;
+}
+/*se define color, tipo de fuente y tamaño a los titulos*/
+.titulo{
+ color: #2c3d50;
+ font-size: 33.84px; 
+ font-family: sans-serif;
+}
